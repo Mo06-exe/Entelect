@@ -14,6 +14,8 @@ def parse_level_input_txt(filepath):
 
     # Turn grid string into Python list
     grid = eval(grid_str)
+    
+
 
     return {
         "level": level,
@@ -41,3 +43,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
